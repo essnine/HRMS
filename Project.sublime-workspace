@@ -1,0 +1,1319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"align-te",
+				"alignment-baseline"
+			],
+			[
+				"bor",
+				"border-right-style"
+			],
+			[
+				"border",
+				"border-bottom-width"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"border-bottom",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-ra",
+				"border-bottom-left-radius"
+			],
+			[
+				"container",
+				"container-fluid"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"sokcet",
+				"SOCKET_LIST"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"SOCKE",
+				"SOCKET_LIST"
+			],
+			[
+				"soc",
+				"SOCK_STREAM"
+			],
+			[
+				"socket",
+				"SOCKET_LIST"
+			],
+			[
+				"Sock",
+				"SOCKET_LIST"
+			],
+			[
+				"add",
+				"addr"
+			],
+			[
+				"server",
+				"server_socket"
+			],
+			[
+				"ready",
+				"ready_to_read"
+			],
+			[
+				"rea",
+				"ready_to_read"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"field",
+				"field_list"
+			],
+			[
+				"f",
+				"fun\tfunction …"
+			],
+			[
+				"mysql",
+				"mysql_fetch_row"
+			],
+			[
+				"mysql_fet",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mys",
+				"mysql_field_name"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_row"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"tota",
+				"total_money"
+			],
+			[
+				"total",
+				"total_reg"
+			],
+			[
+				"def",
+				"def\tFunction"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"console",
+				"console.log();"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"len",
+				"lenobj"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"coll",
+				"college"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"conten",
+				"align-content"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"txt",
+				"txtHint2"
+			],
+			[
+				"tx",
+				"txidin"
+			],
+			[
+				"confi",
+				"Confirm"
+			],
+			[
+				"sta",
+				"stat"
+			],
+			[
+				"sh",
+				"showup"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"mysql_fec",
+				"mysql_fetch_field"
+			],
+			[
+				"js",
+				"JSON"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"alert",
+				"alertPopup"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"fi",
+				"first_name"
+			],
+			[
+				"const",
+				"constructor"
+			],
+			[
+				"clear",
+				"clearStorage"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"w3",
+				"w3-container"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"QR",
+				"QRScanner"
+			],
+			[
+				"border-bot",
+				"border-bottom-style"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"wor",
+				"wordApi"
+			],
+			[
+				"q",
+				"query1"
+			],
+			[
+				"print",
+				"printdir"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"su",
+				"summaryf"
+			],
+			[
+				"return",
+				"returnlist"
+			],
+			[
+				"ret",
+				"returnlist"
+			],
+			[
+				"dictm",
+				"dictmale"
+			],
+			[
+				"fname",
+				"fname1"
+			],
+			[
+				"fna",
+				"fname2"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"v",
+				"v\tvariable"
+			],
+			[
+				"mamm",
+				"mammals"
+			],
+			[
+				"ne",
+				"nextInt"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dashboard.php",
+			"settings":
+			{
+				"buffer_size": 2201,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "login.php",
+			"settings":
+			{
+				"buffer_size": 862,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "register.php",
+			"settings":
+			{
+				"buffer_size": 2113,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform1.php",
+			"settings":
+			{
+				"buffer_size": 12820,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform2.php",
+			"settings":
+			{
+				"buffer_size": 7316,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3a.php",
+			"settings":
+			{
+				"buffer_size": 2276,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3b1.php",
+			"settings":
+			{
+				"buffer_size": 7723,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3b2.php",
+			"settings":
+			{
+				"buffer_size": 4462,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3b3.php",
+			"settings":
+			{
+				"buffer_size": 4488,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3b4.php",
+			"settings":
+			{
+				"buffer_size": 4951,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3b5.php",
+			"settings":
+			{
+				"buffer_size": 3321,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3c.php",
+			"settings":
+			{
+				"buffer_size": 4418,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3d.php",
+			"settings":
+			{
+				"buffer_size": 7505,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootform3e.php",
+			"settings":
+			{
+				"buffer_size": 3866,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "res/css/main.css",
+			"settings":
+			{
+				"buffer_size": 1825,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 191.0,
+		"last_filter": "Package Control: inst",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst\t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta\t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mate",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"Package Control:inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 501.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"clear",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/Project",
+		"/C/wamp64/www/Project/res"
+	],
+	"file_history":
+	[
+		"/C/Users/Suraj/AppData/Roaming/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/C/wamp64/www/WAMP Backup/Crap/HR-0.1/views/boot-form-2.php",
+		"/C/wamp64/www/Project/login.php",
+		"/C/wamp64/www/Project/bootform3e.php",
+		"/C/wamp64/www/Project/bootform3d.php",
+		"/C/wamp64/www/Project/bootform3c.php",
+		"/C/wamp64/www/Project/bootform3b5.php",
+		"/C/wamp64/www/Project/bootform3b4.php",
+		"/C/wamp64/www/Project/bootform3b3.php",
+		"/C/wamp64/www/Project/bootform3b2.php",
+		"/C/wamp64/www/Project/bootform3b1.php",
+		"/C/wamp64/www/Project/bootform3a.php",
+		"/C/wamp64/www/Project/bootform2.php",
+		"/C/wamp64/www/Project/bootform1.php",
+		"/C/wamp64/www/Project/dashboard.php",
+		"/C/wamp64/www/Project/register.php",
+		"/C/wamp64/www/Project/confirm_bootform3e.php",
+		"/C/wamp64/www/Project/confirm_bootform3d.php",
+		"/C/wamp64/www/Project/confirm_bootform3c.php",
+		"/C/wamp64/www/Project/confirm_bootform3b5.php",
+		"/C/wamp64/www/Project/confirm_bootform3b4.php",
+		"/C/wamp64/www/Project/confirm_bootform3b3.php",
+		"/C/wamp64/www/Project/confirm_bootform3b2.php",
+		"/C/wamp64/www/Project/confirm_bootform3b1.php",
+		"/C/wamp64/www/Project/confirm_bootform3a.php",
+		"/C/wamp64/www/Project/confirm_bootform2.php",
+		"/C/wamp64/www/Project/confirm_bootform1.php",
+		"/C/wamp64/www/Project/checkuser.php",
+		"/C/wamp64/www/Project/checklogin.php",
+		"/C/wamp64/www/Project/proccess_form.php",
+		"/C/wamp64/www/Project/include/Connection.php",
+		"/C/wamp64/www/Project/res/css/main.css",
+		"/C/wamp64/www/Project/boot-form-3D.php",
+		"/C/wamp64/www/Project/boot-form-3C.php",
+		"/C/wamp64/www/Project/boot-form-3B5.php",
+		"/C/wamp64/www/Project/boot-form-3B4.php",
+		"/C/wamp64/www/Project/boot-form-3B3.php",
+		"/C/wamp64/www/Project/boot-form-3B2.php",
+		"/C/wamp64/www/Project/boot-form-3B1.php",
+		"/C/wamp64/www/Project/boot-form-3A.php",
+		"/C/wamp64/www/Project/boot-form-2.php",
+		"/C/wamp64/www/Project/boot-form-1.php",
+		"/C/Users/Suraj/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Suraj/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/wamp64/www/Project/hrms.sql",
+		"/C/wamp64/www/Project/erp.sql",
+		"/C/Users/Suraj/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Preferences.sublime-settings",
+		"/C/Users/Suraj/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Suraj/Desktop/Projects/2017/TX Dev/TX2017 App www/www/index.html",
+		"/C/Users/Suraj/Desktop/Projects/2018/College/PP/tilt.py"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 198.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"20px",
+			"20%",
+			"  <img src=\"res/img/head.gif\" class=\"img-responsive\"  width=\"1536\" height=\"110\"> ",
+			"Bootstrap Example",
+			"<br />",
+			"<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>\n  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>  ",
+			"  <link rel=\"stylesheet\" href=\"res/css/main.css\">\n\n</head>",
+			"  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n\n</head>",
+			"\n</head>",
+			"C:/Users/admin/Desktop/Sunny/head.gif",
+			"<body>\n\n<div class=\"container\">",
+			"mandetory",
+			"C:/Users/admin/Desktop/Sunny/head.gif",
+			"</head>",
+			"madatory",
+			"mandetory",
+			"views/images/",
+			"<body>",
+			"C:/Users/admin/Desktop/Sunny/head.gif",
+			"<body>",
+			"header.gif",
+			"views/images/",
+			"views/images/header.gif",
+			".php"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"8px",
+			"20px",
+			"<img src=\"res/img/head.gif\" class=\"img-responsive\">",
+			"HRMS beta",
+			"",
+			"<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>",
+			"  \n  <link rel=\"stylesheet\" href=\"res/css/main.css\">\n\n</head>",
+			"  <link rel=\"stylesheet\" href=\"res/css/main.css\">\n\n</head>",
+			"  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n\n</head>",
+			"res/img/head.gif",
+			"mandatory",
+			"res/img/head.gif",
+			"<link rel=\"stylesheet\" href=\"res/css/main.css\"> \n\n</head>",
+			"mandatory",
+			"madatory",
+			"res/img/",
+			"",
+			"<body>\n\n\n<!-- header image w/ logo-->\n\n<div class=\"container head-container\" >\n                    \n  <img src=\"res/img/head.gif\" class=\"img-responsive\"  width=\"device-width\" height=\"auto\"> \n  \n</div>\n",
+			"head.gif",
+			"res/img/",
+			"res/img/header.gif"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dashboard.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2099,
+								2099
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 319.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "register.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2062,
+								2062
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1193.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bootform1.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bootform2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bootform3a.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bootform3b1.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7723,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "bootform3b2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "bootform3b3.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1282,
+								1282
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "bootform3b4.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "bootform3b5.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "bootform3c.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "bootform3d.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "bootform3e.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "res/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark.tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 80.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.611524163569,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 134.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 137.0
+	},
+	"output.sftp":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "Project.sublime-project",
+	"replace":
+	{
+		"height": 93.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

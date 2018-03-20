@@ -1,0 +1,90 @@
+.head-container{
+  width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1em !important;
+}
+
+.nav-container{
+  width: 95% !important;
+}
+
+.navbar-default{
+  background-color: #1E8BE6 !important;
+  text-decoration-color: #ffffff !important;
+}
+
+.navbar-brand{
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > last-child{
+  float: right;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: ##3C9BED;
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.navbar-default .navbar-text {
+    color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+nav ul li {
+  margin-left: 5px;
+}
+
+.navbar-right{
+  border-width: 1px;
+  border-radius: 1px !important;
+}
