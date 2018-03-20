@@ -13,24 +13,24 @@
 <div class="container">
   
   <p><font face="Verdana" size="1.5px">*All fields are mandetory</font></p>
-  <form class="form-horizontal" method="POST" action="confirm_bootform3d.php" >
+  <form class="form-horizontal" action="/action_page.php">
   
 <div class="form-group">  
     
 <label class="control-label col-sm-2" style=" text-align: left">FY/Common Subject Teacher:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="fy" value="yes">Yes</input>
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="fy" value="no">No</input>
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
 
 <div class="form-group">  
-    <label class="control-label col-sm-2" style=" text-align: left">FY/Common Subject Teacher Name:</label>
+    <label class="control-label col-sm-2" style=" text-align: left">FY/Common Subject Teache:</label>
     <div class="col-sm-10">
-       <input type="text" style="width:225; height:19" placeholder="" name="fyname"> 
+       <input type="text" style="width:225; height:19" placeholder=""> 
 </div>
 </div>
 
@@ -38,10 +38,10 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">Inchare of Institute level Activity:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="inchargeinst" value="yes">Yes</input>
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="inchargeinst" value="no">No</input
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -50,10 +50,10 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">Inchare of Department level Activity:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="inchargedept" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="inchargedept" value="no">No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -61,26 +61,37 @@
 
 <div class="form-group">  
     
-<label class="control-label col-sm-2" style=" text-align: left">Would like to work as Expert Member On various Committees of AICTE:</label>
+<label class="control-label col-sm-2" style=" text-align: left">Would like to work as Expert Member:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="expert" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="expert" value="no">No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
 
+<div class="form-group">  
+    
+<label class="control-label col-sm-2" style=" text-align: left">On various Committees of AICTE:</label>
+    <label class="radio-inline" style="padding-left: 33px">
+      <input type="radio" name="optradio">Yes
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">No
+    </label>   
+
+</div>
 
 
 <div class="form-group">  
     
 <label class="control-label col-sm-2" style=" text-align: left">Have you ever applied to AICTE for any grants/assistance:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="aicte" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="aicte" value="no"> No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -90,10 +101,10 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">Left the Institute:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="left" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="left" value="no">No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -101,9 +112,9 @@
 <div class="form-group">  
     <div >
     
-    <label class="control-label col-sm-2" style=" text-align: left">Relieved Date:</label>
+    <label class="control-label col-sm-2" style=" text-align: left">Relived Date:</label>
     
-       <input type="Date" style="width:225; height:19 " placeholder="" name="relieved">
+       <input type="Date" style="width:225; height:19 " placeholder="">
      </div>
    </div>
 
@@ -111,10 +122,10 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">Institute working status:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="instworking" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="instworking" value="no">No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -122,14 +133,14 @@
 <div class="form-group">  
     <label class="control-label col-sm-2" style=" text-align: left">GTU BE Reg No:</label>
     <div class="col-sm-10">
-       <input type="text" style="width:225; height:19" placeholder="" name="bereg">
+       <input type="text" style="width:225; height:19" placeholder="">
 
 </div>
 </div>
 <div class="form-group">  
     <label class="control-label col-sm-2" style=" text-align: left">GTU ME Reg No:</label>
     <div class="col-sm-10">
-       <input type="text" style="width:225; height:19" placeholder="" name="mereg">
+       <input type="text" style="width:225; height:19" placeholder="">
         
 </div>
 </div>
@@ -138,10 +149,10 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">Endrosed by GTU:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="endorsedgtu" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="endorsedgtu" value="no">No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -150,10 +161,10 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">Appointment approved by govt.:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="appgovt" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="appgovt" value="no"> No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -162,10 +173,10 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">Appointment approved by University:</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="appuni" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="appuni" value="no">No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -173,7 +184,7 @@
 <div class="form-group">  
     <label class="control-label col-sm-2" style=" text-align: left">GTU Letter No. with date:</label>
     <div class="col-sm-10">
-       <input type="text" style="width:225; height:19" placeholder="" name="gtuletter">
+       <input type="text" style="width:225; height:19" placeholder="">
         
 </div>
 </div>
@@ -183,10 +194,10 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">GTU Portal Sub tacher data(BE):</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="besub" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="besub" value="no">No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
@@ -196,18 +207,18 @@
     
 <label class="control-label col-sm-2" style=" text-align: left">GTU Portal Sub tacher data(ME):</label>
     <label class="radio-inline" style="padding-left: 33px">
-      <input type="radio" name="mesub" value="yes">Yes
+      <input type="radio" name="optradio">Yes
     </label>
     <label class="radio-inline">
-      <input type="radio" name="mesub" value="no">No
+      <input type="radio" name="optradio">No
     </label>   
 
 </div>
 
 <div class="form-group">  
-    <label class="control-label col-sm-2" style=" text-align: left">Achievements:</label>
+    <label class="control-label col-sm-2" style=" text-align: left">Achivements:</label>
     <div class="col-sm-10">
-       <textarea class="form-control" rows="2" name="achievements"></textarea>
+       <textarea class="form-control" rows="2" ></textarea>
        
     
 </div>
@@ -217,18 +228,81 @@
 <div class="form-group">  
     <label class="control-label col-sm-2" style=" text-align: left">Remarks:</label>
     <div class="col-sm-10">
-       <textarea class="form-control" rows="2" name="remarks" ></textarea>
+       <textarea class="form-control" rows="2" ></textarea>
        
     
 </div>
 </div>
 
+<h3>Membership of Professional Bodies:</h3>
+
+<div class="form-group">  
+    <label class="control-label col-sm-2" style=" text-align: left">Name of Professional Body:</label>
+    <div class="col-sm-10">
+       <input type="text" style="width:225; height:19" placeholder="">
+        
+</div>
+</div>
+
+<div class="form-group">  
+    <label class="control-label col-sm-2" style=" text-align: left">Membership No.:</label>
+    <div class="col-sm-10">
+       <input type="text" style="width:225; height:19" placeholder="">
+        
+</div>
+</div>
+
+<div class="form-group">  
+    <label class="control-label col-sm-2" style=" text-align: left">Valid Till:</label>
+    <div class="col-sm-10">
+       <input type="text" style="width:225; height:19" placeholder="">
+        
+</div>
+</div>
+
+
+
+
+
+ <div class="form-group"> 
+    <div class=" col-sm-10">
+      <button type="submit" class="btn btn-default">Add</button>
+      
+  </div>
+
+</form>
+</div>
+
+ <div class="table-responsive">
+ 
+    <table border="3" style="font-family:Verdana; font-size:12px " class="table" >
+    <caption>Details</caption>
+   
+                <td>Professional Body</td>
+                <td>Membership No.</td>
+                <td>Vaild Till</td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input type="button" value="Edit"></td> 
+                <td><input type="button" value="Edit"></td>
+                
+
+
+  </table>
+</div>
+
+
 <center>
    <div class="form-group"> 
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default" name="submit">Save & Next</button>
+      <button type="submit" class="btn btn-default">Save & Next</button>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <button type="reset" class="btn btn-default">Reset</button>
+      <button type="submit" class="btn btn-default">Reset</button>
     </div>
   </div>
   </center>

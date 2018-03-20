@@ -1,25 +1,18 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>HRMS beta</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="res/css/main.css">
-
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<div class="container head-container">
-                    
-<img src="res/img/head.gif" class="img-responsive">
-  
-</div>
-
 <div class="container">
   <h4 style="font-family: verdana ">Expert Lecture Deliverd</h4>
-  <p><font face="Verdana" size="1.5px">*All fields are mandatory</font></p>
+  <p><font face="Verdana" size="1.5px">*All fields are mandetory</font></p>
   <form class="form-horizontal" action="/action_page.php">
 
 
@@ -40,11 +33,12 @@
 
 <div class="form-group">  
     
-<label class="control-label col-sm-2" style=" text-align: left; margin-right: 5em">Type:</label>
-    <label class="radio-inline" style="margin-left: 2em">
-      <input type="radio" name="type" value="national">National</label>
-      <label class="radio-inline" style="margin-left: 2em">
-      <input type="radio" name="type" value="international">International
+<label class="control-label col-sm-2" style=" text-align: left">Type:</label>
+    <label class="radio-inline" style="padding-left: 160px">
+      <input type="radio" id="type" value="national">National
+    </label>
+    <label class="radio-inline">
+      <input type="radio" id="type" value="international">International
     </label>   
   </div>
 
