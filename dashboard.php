@@ -1,55 +1,59 @@
 <?php
 session_start();
 include('include/Connection.php');
-$user=$_SESSION['user'];
-
-
-$query="SELECT `role` as role FROM `personal_details` WHERE `username`='$user'";
-$result=mysqli_query($conn,$query);
-$check=mysqli_fetch_assoc($result);
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Bootstrap Example</title>
+  <title>HRMS beta</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="res/css/main.css">
 
 </head>
 <body>
-    <a href="bootform1.php">Personal Details</a><br />
-    <a href="bootform2.php">Educational Qualifications</a><br />
-    <a href="bootform3a.php">Books Written</a><br />
-    <a href="bootform3b1.php">Papers/Publications</a><br />
-    <a href="bootform3b2.php">STTP/Seminar/Workshop/Symposium/FDP Attended</a><br />
-    <a href="bootform3b3.php">STTP/Seminar/Workshop/Symposium/FDP Conducted</a><br />
-    <a href="bootform3b4.php">Expert Lectures Delivered</a><br />
-    <a href="bootform3b5.php">Consultancy</a><br />
-    <a href="bootform3c.php">What's this??</a><br />
-    <a href="bootform3d.php">AICTE/GTU Endorsement</a><br />
-<?php
 
-if($check['role']=="staff"){
-	  echo '<a href="applyleave.php">Apply Leave</a><br />';
+<div class="container head-container">
+                    
+<img src="res/img/head - Copy.gif" class="img-responsive">
+  
+</div>
 
-}
-elseif($check['role']=="hod"){
-	  echo '<a href="recommendleave.php">Recommend Leave</a><br />';
-
-}
-elseif($check['role']=="director"){
-	  echo '<a href="approveleave.php">Approve Leave</a><br />';
-
-}
-elseif($check['role']==NULL || $check['role']==""){
-	  echo 'Please Fill Up the Details First!';
-
-}
-?>
-
-	</body>
-	</html>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header" style="padding-left: 1em">
+      <a class="navbar-brand">Navigation</a>
+    </div>
+    <ul class="nav navbar-nav" style="list-style: none">
+      <li class="active"><a href="#">Home</a></li>
+      </li>
+      <li><a href="bootform1.php">Personal Details</a></li>
+      <li><a href="bootform2.php">Educational Qualifications</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Professional Details
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+              <li><a href="bootform3a.php">Books Written</a></li>
+              <li><a href="bootform3b1.php">Papers/Publications</a></li></li>
+              <li><a href="bootform3b2.php">STTP/Seminar/Workshop/Symposium/FDP Attended</a></li>
+              <li><a href="bootform3b3.php">STTP/Seminar/Workshop/Symposium/FDP Conducted</a></li>
+              <li><a href="bootform3b4.php">Expert Lectures Delivered</a></li>
+              <li><a href="bootform3b5.php">Consultancy</a></li>
+              <li><a href="bootform3c.php">Patent Details</a></li>
+              <li><a href="bootform3d.php">AICTE/GTU Endorsement</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Leave Management</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style="padding-right: 1em;">
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+</body>
+</html>
 	
