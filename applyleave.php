@@ -32,15 +32,16 @@
 <div class="container">
   <h4 style="font-family: verdana ">Leave Form</h4>
   <p><font face="Verdana" size="1.5px">*All fields are mandatory</font></p>
-  <form class="form-horizontal" action="confirmleave.php" method="POST">
+  
+  <?php echo'<form class="form-horizontal"  method="POST" action="confirmleave.php">
 
 
 
 <div class="form-group">  
 
 <label class="control-label col-sm-2" style=" text-align: left">Type of Leaves:</label>
-    <label class="radio-inline" style="padding-left: 90px">
-      <?php 
+    <label class="radio-inline" style="padding-left: 90px">';
+      
 	  $username=mysqli_real_escape_string($conn,$_SESSION['user']);
 
  $query ="SELECT * FROM `leavemaster`WHERE `username`='$username'";
@@ -57,11 +58,10 @@ $row1=mysqli_fetch_array($result1);
 	  else{
 		  
 		  echo '<input type="radio" name="type" value="sick" disabled>Sick Leave </input>';
-	  }?>
-    </label>
+	  }
+    
 	
-    <label class="radio-inline">
- <?php 
+  echo'  </label><label class="radio-inline">';
 	  
 	  if ($row['casual_leave']!=0){
 		  
@@ -70,10 +70,9 @@ $row1=mysqli_fetch_array($result1);
 	  else{
 		  
 		  echo '<input type="radio" name="type" value="fcl" disabled>Full Casual Leave</input>';
-	  }?>    
-	  </label> 
-<label class="radio-inline">
-    <?php 
+	  } 
+echo'	  </label> 
+<label class="radio-inline">';
 	  
 	  if ($row['casual_leave']!=0){
 		  
@@ -82,11 +81,10 @@ $row1=mysqli_fetch_array($result1);
 	  else{
 		  
 		  echo '<input type="radio" name="type" value="hcl" disabled>Half Casual Leave</input>';
-	  }?>  
-	
+	  }  
+	echo'
 	</label> 
-	<label class="radio-inline">
-<?php 
+	<label class="radio-inline">';
 	  
 	  if ($row['earned_leave']!=0 && $row['role']="nonfac"){
 		  
@@ -95,15 +93,14 @@ $row1=mysqli_fetch_array($result1);
 	  elseif($row['role']="fac"){
 		  
 		  echo '<input type="radio" name="type" value="earned" disabled>Earned Leave</input>';
-	  }?>  
+	  }echo'
 	  </label> 
 	<label class="radio-inline">
       <input type="radio" name="type" value="lwp">Leave Without Pay</input>
     </label> 
-	<label class="radio-inline">
-<?php 
+	<label class="radio-inline">';
 		
-	 echo '<input type="radio" name="type" value="earned">Vacation Leave </input>';?>  
+	 echo '<input type="radio" name="type" value="vacation">Vacation Leave </input>
 	  </label> 
 	
   </div>
@@ -135,19 +132,142 @@ $row1=mysqli_fetch_array($result1);
 </div>
 </div>
 
-</form>
 </div>
 
 <center>
    <div class="form-group"> 
     <div class="col-sm-offset-2 col-sm-10">
-      <a type="submit" class="btn btn-default" href="confirmleave.php">Apply!</a>
+      <button type="submit" class="btn btn-default" name="submit">Apply!</button>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <button type="submit" class="btn btn-default">Reset</button>
+      <button type="reset" class="btn btn-default">Reset</button>
     </div>
   </div>
-  </center>
-  
-  
+  </center> </form>
+';?>
+ <div class="container">
+  <h4 style="font-family: verdana ">Leave Status</h4>
+  <table border="3" style="font-family:Verdana; font-size:12px " class="table" id="myTable">
+    <caption>Details</caption>
+   <?php
+   $table_query = "SELECT * from `leavemaster` WHERE `username`='$username'";
+   $table_query_result = mysqli_query($conn,$table_query);
+   $rows=mysqli_fetch_array($table_query_result);
+   
+   if($rows['role']=="fac"){
+	   
+	   $rows['earned_leave']="Not applicable";
+   }
+   ?>
+                <td>Casual Leave</td>
+                <td>Sick Leave</td>
+                <td>Duty Leave</td>
+                <td>Vacation Leave</td>
+                <td>Leave Without Pay</td>
+                <td>Earned Leave</td>
+                </tr>
+                <tr>
+                <td><?php echo $rows['casual_leave'];?></td>
+                <td><?php echo $rows['sick_leave'];?></td>
+                <td><?php echo $rows['duty_leave'];?></td>
+                <td><?php echo $rows['vacation_leave'];?></td>
+                <td><?php echo $rows['leave_without_pay'];?></td>
+                <td><?php echo $rows['earned_leave'];?></td>
+                
+               
+
+
+
+  </table>
+
+
+ </div>
+ 
+ <div class="container">
+  <h4 style="font-family: verdana ">Recently Applied Leaves</h4>
+  <table border="3" style="font-family:Verdana; font-size:12px " class="table" id="myTable">
+  <tr><td>Leave Submitted Date</td>
+                <td>Leave Type</td>
+                <td>HOD Recommendation</td>
+                <td>Director Approval</td>
+               
+                </tr>
+    <caption>Details</caption>
+   <?php
+   $table_query = "SELECT * from `leaverepo` WHERE `username`='$username'";
+   $table_query_result = mysqli_query($conn,$table_query);
+   
+   if(mysqli_num_rows($table_query_result)>=0){
+   while($row=mysqli_fetch_assoc($table_query_result)){
+   
+   if($row['leave_type']=="fcl"){
+	   
+	   $type="Full Casual Leave";
+   }
+   elseif($row['leave_type']=="hcl"){
+	   
+	   $type="Hald Casual Leave";
+   }
+   elseif($row['leave_type']=="sick"){
+	   
+	   $type="Sick Leave";
+   }
+   elseif($row['leave_type']=="lwp"){
+	   
+	   $type="Leave Without Pay";
+	   
+   }
+   elseif($row['leave_type']=="vacation"){
+	   
+	   $type="Vacation Leave";
+	   
+   }
+   
+   if($row['recommend_status']=='0'){
+	   
+	   $recommend="Not recommended yet!";
+	   
+   }
+   elseif($row['recommend_status']=='1'){
+	   
+	   $recommend="Recommended!";
+	   
+   }
+   
+   if($row['approval_status']=='0'){
+	   
+	   $approval="Not approved yet!";
+	   
+   }
+   elseif($row['approval_status']=='1'){
+	   
+	   $approval="Approved!";
+   }
+   
+   if($row['approval_status']=='2'){
+	   
+	   $approved="Rejected!";
+   }
+   if($row['recommend_status']=='2'){
+	   
+	   $recommend="Rejected!";
+   }
+   
+   
+                
+				echo '
+                <tr>
+                <td>'.$row['timestamp'].'</td>
+                <td>'.$type.'</td>
+                <td>'.$recommend.'</td>
+                <td>'.$approval.'</td></tr>';
+              
+   }}?>
+
+
+
+  </table>
+
+
+ </div>
 </body>
 </html>
