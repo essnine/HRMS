@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 session_start();
 include('include/Connection.php');
@@ -114,5 +114,5 @@ elseif($check['role']==NULL || $check['role']==""){
 
 	</body>
 	</html>
->>>>>>> e56b2830b8d0c8bfbe24f08520be1f965b9a329a
+
 	
