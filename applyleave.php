@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  <?php
  session_start();
  include('include/Connection.php');
@@ -424,5 +424,5 @@ echo'	  </label>
 
  </div>
 </body>
->>>>>>> e56b2830b8d0c8bfbe24f08520be1f965b9a329a
+
 </html>

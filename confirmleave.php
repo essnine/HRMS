@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 session_start();
 include_once('include/Connection.php');
@@ -80,4 +80,4 @@ else
 
 
 
->>>>>>> e56b2830b8d0c8bfbe24f08520be1f965b9a329a
+

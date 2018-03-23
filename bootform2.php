@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php 
 include('include/Connection.php');
 session_start();
@@ -21,7 +21,7 @@ session_start();
 
 <div class="container head-container">
                     
-<img src="res/img/head.gif" class="img-responsive">
+<img src="res/img/hd-head" class="img-responsive">
   
 </div>
 
@@ -254,7 +254,7 @@ session_start();
 <body>
 <div class="container">
                     
-  <img src="C:/Users/admin/Desktop/Sunny/head.gif" class="img-responsive"  width="1536" height="110"> 
+  <img src="C:/Users/admin/Desktop/Sunny/hd-head" class="img-responsive"  width="1536" height="110"> 
   
 </div>
 <div class="container">
@@ -466,5 +466,5 @@ return false;
 </div>
 
 </body>
->>>>>>> e56b2830b8d0c8bfbe24f08520be1f965b9a329a
+
 </html>

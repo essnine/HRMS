@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +14,7 @@
 
 <div class="container head-container">
                     
-<img src="res/img/head.gif" class="img-responsive">
+<img src="res/img/hd-head" class="img-responsive">
   
 </div>
 
@@ -263,5 +263,5 @@ return false;
   </div>
   </center>
 </body>
->>>>>>> e56b2830b8d0c8bfbe24f08520be1f965b9a329a
+
 </html>
